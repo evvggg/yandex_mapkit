@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  variant = 'full'
+  variant = ENV['YANDEX_MAPKIT_VARIANT'] || 'full'
 
   s.name             = 'yandex_mapkit'
   s.version          = '0.0.1'
